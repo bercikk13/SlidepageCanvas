@@ -1,0 +1,2 @@
+C:\Users\Bercik\AndroidStudioProjects\AnimationsDemo\app\build\intermediates\classes\debug
+C:\Users\Bercik\AndroidStudioProjects\AnimationsDemo\app\build\intermediates\pre-dexed\debug\android-support-v13-80ae1e0a18f2026d1239f6149742d670cb7eff95.jar
