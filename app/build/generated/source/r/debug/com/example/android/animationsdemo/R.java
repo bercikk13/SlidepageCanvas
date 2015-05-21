@@ -42,9 +42,8 @@ public final class R {
         public static final int card_flip_time_half=0x7f060001;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_screen_slide=0x7f030001;
-        public static final int fragment_screen_slide_page=0x7f030002;
+        public static final int activity_screen_slide=0x7f030000;
+        public static final int fragment_screen_slide_page=0x7f030001;
     }
     public static final class menu {
         public static final int activity_crossfade=0x7f090000;
