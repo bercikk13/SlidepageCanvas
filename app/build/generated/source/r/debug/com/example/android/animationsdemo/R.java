@@ -28,37 +28,23 @@ public final class R {
         public static final int thumb2=0x7f020008;
     }
     public static final class id {
-        public static final int action_add_item=0x7f05000c;
+        public static final int action_add_item=0x7f050006;
         public static final int action_flip=0x7f050000;
         public static final int action_next=0x7f050001;
-        public static final int action_previous=0x7f05000d;
-        public static final int action_toggle=0x7f05000b;
-        public static final int container=0x7f050002;
-        public static final int content=0x7f050009;
-        public static final int delete_button=0x7f05000a;
-        public static final int expanded_image=0x7f050008;
-        public static final int loading_spinner=0x7f050003;
-        public static final int pager=0x7f050004;
-        public static final int thumb_button_1=0x7f050006;
-        public static final int thumb_button_2=0x7f050007;
-        public static final int view=0x7f050005;
+        public static final int action_previous=0x7f050007;
+        public static final int action_toggle=0x7f050005;
+        public static final int content=0x7f050004;
+        public static final int pager=0x7f050002;
+        public static final int view=0x7f050003;
     }
     public static final class integer {
         public static final int card_flip_time_full=0x7f060000;
         public static final int card_flip_time_half=0x7f060001;
     }
     public static final class layout {
-        public static final int activity_card_flip=0x7f030000;
-        public static final int activity_crossfade=0x7f030001;
-        public static final int activity_layout_changes=0x7f030002;
-        public static final int activity_main=0x7f030003;
-        public static final int activity_screen_slide=0x7f030004;
-        public static final int activity_zoom=0x7f030005;
-        public static final int excerpt_content=0x7f030006;
-        public static final int fragment_card_back=0x7f030007;
-        public static final int fragment_card_front=0x7f030008;
-        public static final int fragment_screen_slide_page=0x7f030009;
-        public static final int list_item_example=0x7f03000a;
+        public static final int activity_main=0x7f030000;
+        public static final int activity_screen_slide=0x7f030001;
+        public static final int fragment_screen_slide_page=0x7f030002;
     }
     public static final class menu {
         public static final int activity_crossfade=0x7f090000;

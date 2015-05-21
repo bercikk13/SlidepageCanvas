@@ -12,11 +12,11 @@
 
     />
     <view
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         class="com.example.android.animationsdemo.MyView"
         android:id="@+id/view"
         android:layout_alignParentBottom="true"
         />
 
-</RelativeLayout><!-- From: file:/C:/Users/Bercik/AndroidStudioProjects/AnimationsDemo/app/src/main/res/layout/activity_screen_slide.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Bercik/AndroidStudioProjects/animationsdemo/app/src/main/res/layout/activity_screen_slide.xml -->

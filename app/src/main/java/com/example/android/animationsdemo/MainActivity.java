@@ -61,11 +61,9 @@ public class MainActivity extends ListActivity {
 
         // Instantiate the list of samples.
         mSamples = new Sample[]{
-                new Sample(R.string.title_crossfade, CrossfadeActivity.class),
-                new Sample(R.string.title_card_flip, CardFlipActivity.class),
+
                 new Sample(R.string.title_screen_slide, ScreenSlideActivity.class),
-                new Sample(R.string.title_zoom, ZoomActivity.class),
-                new Sample(R.string.title_layout_changes, LayoutChangesActivity.class),
+
         };
 
         setListAdapter(new ArrayAdapter<Sample>(this,
