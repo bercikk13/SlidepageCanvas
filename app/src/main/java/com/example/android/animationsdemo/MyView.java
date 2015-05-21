@@ -28,75 +28,86 @@ public class MyView extends View {
     public void onDraw( Canvas canvas)
     {
 
-        int rad = 10;
-        int h = getMeasuredHeight();
-        int w = getMeasuredWidth();
-        int d= w/6;
-        int dp = 10;
+        int radius = 15;
+        int reverse =15;
+        int height = getMeasuredHeight();
+        int width = getMeasuredWidth();
+        int split= width/6;
+        int margin = 15;
 
 
 
-        paint.setStyle(Paint.Style.STROKE);
-        canvas.drawCircle(d-dpToPx( dp), h-dpToPx( dp), dpToPx( rad), paint);
-        canvas.drawCircle(2*d-dpToPx( dp), h-dpToPx( dp), dpToPx( rad), paint);
-        canvas.drawCircle(3*d-dpToPx( dp), h-dpToPx( dp), dpToPx( rad), paint);
-        canvas.drawCircle(4*d-dpToPx( dp), h-dpToPx( dp), dpToPx( rad), paint);
-        canvas.drawCircle(5*d-dpToPx( dp), h-dpToPx( dp), dpToPx( rad), paint);
+       // paint.setStyle(Paint.Style.STROKE);
+//        canvas.drawCircle(split-dpToPx( margin), height-dpToPx( margin), dpToPx( radius), paint);
+//        canvas.drawCircle(2*split-dpToPx( margin), height-dpToPx( margin), dpToPx( radius), paint);
+//        canvas.drawCircle(3*split-dpToPx( margin), height-dpToPx( margin), dpToPx( radius), paint);
+//        canvas.drawCircle(4*split-dpToPx( margin), height-dpToPx( margin), dpToPx( radius), paint);
+//        canvas.drawCircle(5*split-dpToPx( margin), height-dpToPx( margin), dpToPx( radius), paint);
         if(i==0)
         {
 
             paint.setStyle(Paint.Style.FILL);
-            canvas.drawCircle(2*d-dpToPx( dp), h-dpToPx( dp), dpToPx( k), paint);
+            canvas.drawCircle(2*split-dpToPx( margin), height-dpToPx( margin), dpToPx( k), paint);
 
             if(k==0)
 
             {
-                canvas.drawCircle(d-dpToPx( dp), h-dpToPx( dp), dpToPx( rad), paint);
+                canvas.drawCircle(split-dpToPx( margin), height-dpToPx( margin), dpToPx( radius), paint);
                 invalidate();
             }
+            paint.setStyle(Paint.Style.FILL);
+            canvas.drawCircle(split-dpToPx( margin), height-dpToPx( margin), dpToPx(reverse- k), paint);
 
 
         }else if (i==1)
         {
             paint.setStyle(Paint.Style.FILL);
-            canvas.drawCircle(3*d-dpToPx( dp), h-dpToPx( dp), dpToPx( k), paint);
+            canvas.drawCircle(3*split-dpToPx( margin), height-dpToPx( margin), dpToPx( k), paint);
 
             if(k==0)
 
             {
-                canvas.drawCircle(2*d-dpToPx( dp), h-dpToPx( dp), dpToPx( rad), paint);
+                canvas.drawCircle(2*split-dpToPx( margin), height-dpToPx( margin), dpToPx( radius), paint);
                 invalidate();
             }
+            paint.setStyle(Paint.Style.FILL);
+            canvas.drawCircle(2*split-dpToPx( margin), height-dpToPx( margin), dpToPx(reverse- k), paint);
         }else if(i==2)
         {
             paint.setStyle(Paint.Style.FILL);
-            canvas.drawCircle(4*d-dpToPx( dp), h-dpToPx( dp), dpToPx( k), paint);
+            canvas.drawCircle(4*split-dpToPx( margin), height-dpToPx( margin), dpToPx( k), paint);
             if(k==0)
 
             {
-                canvas.drawCircle(3*d-dpToPx( dp), h-dpToPx( dp), dpToPx( rad), paint);
+                canvas.drawCircle(3*split-dpToPx( margin), height-dpToPx( margin), dpToPx( radius), paint);
                 invalidate();
             }
+
+            canvas.drawCircle(3*split-dpToPx( margin), height-dpToPx( margin), dpToPx(reverse- k), paint);
         }else if (i==3)
         {
             paint.setStyle(Paint.Style.FILL);
-            canvas.drawCircle(5*d-dpToPx( dp), h-dpToPx( dp), dpToPx( k), paint);
+            canvas.drawCircle(5*split-dpToPx( margin), height-dpToPx( margin), dpToPx( k), paint);
             if(k==0)
 
             {
-                canvas.drawCircle(4*d-dpToPx( dp), h-dpToPx( dp), dpToPx( rad), paint);
+                canvas.drawCircle(4*split-dpToPx( margin), height-dpToPx( margin), dpToPx( radius), paint);
                 invalidate();
             }
+            paint.setStyle(Paint.Style.FILL);
+            canvas.drawCircle(4*split-dpToPx( margin), height-dpToPx( margin), dpToPx(reverse- k), paint);
         }else if(i==4)
         {
             paint.setStyle(Paint.Style.FILL);
-            canvas.drawCircle(6*d-dpToPx( dp), h-dpToPx( dp), dpToPx( k), paint);
+            canvas.drawCircle(6*split-dpToPx( margin), height-dpToPx( margin), dpToPx( k), paint);
             if(k==0)
 
             {
-                canvas.drawCircle(5*d-dpToPx( dp), h-dpToPx( dp), dpToPx( rad), paint);
+                canvas.drawCircle(5*split-dpToPx( margin), height-dpToPx( margin), dpToPx( radius), paint);
                 invalidate();
             }
+            paint.setStyle(Paint.Style.FILL);
+            canvas.drawCircle(5*split-dpToPx( margin), height-dpToPx( margin), dpToPx(reverse- k), paint);
 
         }
 
