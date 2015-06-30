@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Bercik\animation\animationsdemo\app\libs\android-support-v13.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0a0cf96dabecd7b65a3638a229e7bdb42e6b0a77">
+        <dex dex="C:\Users\Bercik\animation\animationsdemo\app\build\intermediates\pre-dexed\debug\android-support-v13-5b8d4589b10188bafb4a66838f99502ab0a7aa8a.jar" />
+    </item>
+    <item
         jar="C:\Users\Bercik\Projekty\animationsdemo\app\libs\android-support-v13.jar"
         jumboMode="false"
         revision="22.0.1"
